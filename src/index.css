@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product-hover:hover img {
+  transform: translateX(-4rem);
+}
+
+.article-hover:hover .overlay {
+  opacity: 15%;
+}
